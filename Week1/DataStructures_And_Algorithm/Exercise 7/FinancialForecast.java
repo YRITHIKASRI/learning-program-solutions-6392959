@@ -9,6 +9,7 @@ public class FinancialForecast {
         return forecastFutureValue(amount, growthRate, years - 1) * (1 + growthRate);
     }
 
+    
     public static void main(String[] args) {
         double initialAmount = 10000;   // Starting value
         double annualGrowthRate = 0.07; // 7% growth rate
